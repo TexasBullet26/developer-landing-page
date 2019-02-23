@@ -1,0 +1,76 @@
+/* TYPOGRAPHY */
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* if screen is greater than 576px and less than 768px */
+@media (min-width: 576px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+/* if screen is greater than 768px and less than 992px */
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+/* if screen is greater than 992px and less than 1200px */
+@media (min-width: 992px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+/* if screen is greater than 1200px */
+@media (min-width: 1200px) {
+    html {
+        font-size: 20px;
+    }
+}
+
+/* social media icons */
+.icons-social i {
+    font-size: 3em;
+    padding: 10px;
+}
+
+/* CUSTOM STYLES */
+
+/* .main class */
+main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    padding: 0 30px;
+    text-align: center;
+}
+
+/* .intro text */
+main > .intro {
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 3.75em;
+    font-weight: 600;
+}
+
+/* .tagline text */
+main > .tagline {
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+    font-weight: 100;
+}
+
+.devto {
+    margin-bottom: 10px;
+}
+
+.devto svg {
+    margin-bottom: 0.2rem;
+    margin-left: 0.675rem;
+    width: 2.65rem;
+    height: 2.65rem;
+}
