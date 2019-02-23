@@ -1,3 +1,3 @@
-# Product Landing Page 2
+# Developer Landing Page
 
-Created for freeCodeCamp's Product Landing Page project and sharing!
+One page developer landing page with social media links included! Responsive content!
